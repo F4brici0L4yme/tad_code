@@ -2,7 +2,8 @@ package stack;
 
 public class TestStack {
 	public static void main(String arg[]) {
-		Stack<Integer> s = new StackLink();
+		Stack<Integer> s = new StackLink<>();
+
 		try {
 			
 			s.pop();
